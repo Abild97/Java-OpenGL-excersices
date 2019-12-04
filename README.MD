@@ -1,4 +1,4 @@
-###README
+### README
 A collection of all exsercises and experiments i create while learning to use OpenGL with java.
 Most of the code in this repository require JOML and JOGL to run.
 
