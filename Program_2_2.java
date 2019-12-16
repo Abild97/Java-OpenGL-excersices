@@ -28,6 +28,7 @@ public class Program_2_2 extends JFrame implements GLEventListener {
     public void display(GLAutoDrawable drawable) {
         GL4 gl = (GL4) GLContext.getCurrentGL();
         gl.glUseProgram(renderingProgram);
+        gl.glPointSize(30.0f);
         gl.glDrawArrays(GL_POINTS, 0, 1);
     }
 
@@ -73,6 +74,7 @@ public class Program_2_2 extends JFrame implements GLEventListener {
 
     public static void main(String[] args) {
         new Program_2_2();
+
     }
 
     public void reshape(GLAutoDrawable drawable, int x, int y, int width, int height) {
